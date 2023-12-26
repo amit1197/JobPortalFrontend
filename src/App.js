@@ -9,7 +9,7 @@ import SiteHeader from "./components/SiteHeader"
 
 // apollo client
 const client = new ApolloClient({
-  uri: 'http://localhost:1337/graphql',
+  uri: 'https://genuine-courage-0ad4815806.strapiapp.com/graphql',
   cache: new InMemoryCache()
 })
 
